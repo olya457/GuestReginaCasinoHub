@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>GuestReginaCasinoHub</string>
+	<string>Concierge Regina Visit Casino</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -32,7 +32,7 @@
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Guest Regina Casino Hub uses your location to show nearby Regina places and directions while you use the app.</string>
+	<string>Concierge Regina Visit Casino uses your location to show nearby Regina places and directions while you use the app.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>

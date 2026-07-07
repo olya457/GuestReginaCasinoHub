@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "GuestReginaCasinoHub.app"
-               BlueprintName = "GuestReginaCasinoHub"
-               ReferencedContainer = "container:GuestReginaCasinoHub.xcodeproj">
+               BuildableName = "ConciergeReginaVisitCasino.app"
+               BlueprintName = "ConciergeReginaVisitCasino"
+               ReferencedContainer = "container:ConciergeReginaVisitCasino.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "GuestReginaCasinoHubTests.xctest"
-               BlueprintName = "GuestReginaCasinoHubTests"
-               ReferencedContainer = "container:GuestReginaCasinoHub.xcodeproj">
+               BuildableName = "ConciergeReginaVisitCasinoTests.xctest"
+               BlueprintName = "ConciergeReginaVisitCasinoTests"
+               ReferencedContainer = "container:ConciergeReginaVisitCasino.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "GuestReginaCasinoHub.app"
-            BlueprintName = "GuestReginaCasinoHub"
-            ReferencedContainer = "container:GuestReginaCasinoHub.xcodeproj">
+            BuildableName = "ConciergeReginaVisitCasino.app"
+            BlueprintName = "ConciergeReginaVisitCasino"
+            ReferencedContainer = "container:ConciergeReginaVisitCasino.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "GuestReginaCasinoHub.app"
-            BlueprintName = "GuestReginaCasinoHub"
-            ReferencedContainer = "container:GuestReginaCasinoHub.xcodeproj">
+            BuildableName = "ConciergeReginaVisitCasino.app"
+            BlueprintName = "ConciergeReginaVisitCasino"
+            ReferencedContainer = "container:ConciergeReginaVisitCasino.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

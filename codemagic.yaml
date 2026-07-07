@@ -1,10 +1,10 @@
 workflows:
-  sample-workflow:
-    name: Guest Regina Casino Hub
+  concierge-regina-visit-casino:
+    name: Concierge Regina Visit Casino
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: Guest Regina Casino Hub
+      app_store_connect: Concierge Regina Visit Casino
     environment:
       ios_signing:
         distribution_type: app_store
@@ -12,8 +12,8 @@ workflows:
       vars:
         APP_STORE_APPLE_ID: 6783735939
         BUNDLE_ID: 'com.vexikasdesinas.vedolaxadceraz'
-        XCODE_WORKSPACE: 'GuestReginaCasinoHub.xcworkspace'
-        XCODE_SCHEME: 'GuestReginaCasinoHub'
+        XCODE_WORKSPACE: 'ConciergeReginaVisitCasino.xcworkspace'
+        XCODE_SCHEME: 'ConciergeReginaVisitCasino'
     scripts:
       - name: Install node modules
         script: |
@@ -33,7 +33,7 @@ workflows:
           agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
       - name: Set Info.plist values
         script: |
-          PLIST=$CM_BUILD_DIR/ios/AwesomeProject/Info.plist
+          PLIST=$CM_BUILD_DIR/ios/ConciergeReginaVisitCasino/Info.plist
           PLIST_BUDDY=/usr/libexec/PlistBuddy
           $PLIST_BUDDY -c "Add :ITSAppUsesNonExemptEncryption bool false" $PLIST
       - name: Build ipa for distribution

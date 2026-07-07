@@ -3,6 +3,6 @@ plugins { id("com.facebook.react.settings") }
 extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
     ex.autolinkLibrariesFromCommand(["node", file("../node_modules/@react-native-community/cli/build/bin.js").absolutePath, "config"])
 }
-rootProject.name = 'GuestReginaCasinoHub'
+rootProject.name = 'ConciergeReginaVisitCasino'
 include ':app'
 includeBuild('../node_modules/@react-native/gradle-plugin')

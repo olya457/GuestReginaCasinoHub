@@ -1,4 +1,4 @@
-package com.guestreginacasinohub
+package com.conciergereginavisitcasino
 
 import android.app.Application
 import com.facebook.react.PackageList
