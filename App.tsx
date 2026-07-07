@@ -1,8 +1,8 @@
 import React from 'react';
-import {AppNavigator} from './src/navigation/AppNavigator';
+import {GuestJourneyRouter} from './src/passage/GuestJourneyRouter';
 
 function App(): React.JSX.Element {
-  return <AppNavigator />;
+  return <GuestJourneyRouter />;
 }
 
 export default App;
